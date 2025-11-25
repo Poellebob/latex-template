@@ -4,7 +4,7 @@ sage:
 	sage *.sagetex.sage
 
 latex:
-	latexmk -pdf
+	latexmk -pdf -shell-escape
 
 biber:
 	biber main
