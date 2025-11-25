@@ -1,7 +1,10 @@
-.PHONY: latex sage latex
-
-latex:
-  latekmk
+.PHONY: latex biber sage latex
 
 sage:
-  sage *.sage
+	sage *.sagetex.sage
+
+latex:
+	latexmk -pdf
+
+biber:
+	biber main
