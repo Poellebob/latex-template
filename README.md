@@ -13,7 +13,7 @@ biber
 # if using neovim with vimtex you can download spell files
 
 ```sh
-sh <(https://raw.githubusercontent.com/Poellebob/latex-template/refs/heads/helpers/dspl.sh) <lang> 
+sh <(curl -fsSL https://raw.githubusercontent.com/Poellebob/latex-template/refs/heads/helpers/dspl.sh) <lang> 
 ```
 > Put the language code instead of `<lang>`, example `da`
 
