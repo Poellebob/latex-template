@@ -10,6 +10,13 @@ sagemath
 biber
 ```
 
+# if using neovim with vimtex you can download spell files
+
+```sh
+sh <(https://raw.githubusercontent.com/Poellebob/latex-template/refs/heads/helpers/dspl.sh) <lang> 
+```
+> Put the language code instead of `<lang>`, example `da`
+
 ## Quick Reference Snippets
 
 ### Basic SageTex Setup
